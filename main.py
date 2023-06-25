@@ -17,6 +17,9 @@ if __name__ == '__main__':
 
     url = "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=6dac729af57e4091ae76f578973e6085"
 
+    news = requests.get(url).text
+    print(news)
+
 
 
 
